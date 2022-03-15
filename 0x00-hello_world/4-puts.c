@@ -8,10 +8,9 @@
 
 int main(void)
 {
-	/* puts is for printing text without formattins */
 
 	puts("\"Programming is like building a multilingual puzzle\n");
-	return(0);
+	return (0);
 
 }
 
