@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - check the code
  *
@@ -6,13 +6,9 @@
  */
 int main(void)
 {
-	char *ch = "_putchar";
+	char *n = "_putchar";
 
-	while (*ch != '\0')
-	{
-		_putchar(*ch);
-		ch++;
-	}
-	_putchar('\n');
+	_putchar(n);
+	putchar('\n');
 	return (0);
 }

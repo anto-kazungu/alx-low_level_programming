@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-char _putchar(char *ch)
+void _putchar(char *n)
 {
-	return (putchar(*ch));
+	while (*n != '\0')
+	{
+		putchar(*n);
+		n++;
+	}
 }
