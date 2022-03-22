@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - check the code
  *
@@ -10,9 +10,9 @@ int main(void)
 
 	while (*ch != '\0')
 	{
-		putchar(*ch);
+		_putchar(*ch);
 		ch++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
