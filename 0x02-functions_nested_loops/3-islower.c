@@ -8,13 +8,16 @@
  */
 int _islower(int c)
 {
+	int n
+
 	if (c >= 'a' && c <= 'z')
 	{
-		return (1);
+		n = 1;
 	}
 	else
 	{
-		return (0);
+		n = 0;
 	}
+	return (n);
 }
 
