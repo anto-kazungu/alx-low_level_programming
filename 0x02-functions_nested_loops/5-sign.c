@@ -29,5 +29,5 @@ int print_sign(int n)
 	{
 		_putchar (ng);
 		return (-1);
-	{
+	}
 }
